@@ -7,12 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA768A691AAF89470039DC5D /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA768A681AAF89470039DC5D /* ChatCell.swift */; };
+		AA768A6B1AAF89970039DC5D /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA768A6A1AAF89970039DC5D /* ChatsViewController.swift */; };
+		AA7B1B051AC0BEC7000EB1CE /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7B1B041AC0BEC7000EB1CE /* DashboardViewController.swift */; };
 		AA861CD41A7D59280039FDC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA861CD31A7D59280039FDC5 /* AppDelegate.swift */; };
-		AA861CD61A7D59280039FDC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA861CD51A7D59280039FDC5 /* ViewController.swift */; };
-		AA861CD91A7D59280039FDC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA861CD71A7D59280039FDC5 /* Main.storyboard */; };
 		AA861CDB1A7D59280039FDC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA861CDA1A7D59280039FDC5 /* Images.xcassets */; };
 		AA861CDE1A7D59280039FDC5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA861CDC1A7D59280039FDC5 /* LaunchScreen.xib */; };
 		AA861CEA1A7D59280039FDC5 /* Counselor_ConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA861CE91A7D59280039FDC5 /* Counselor_ConnectTests.swift */; };
+		AA861CF41A7D59890039FDC5 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA861CF31A7D59890039FDC5 /* Chat.swift */; };
+		AA861CF61A7D59CE0039FDC5 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA861CF51A7D59CE0039FDC5 /* ChatViewController.swift */; };
+		AA861CF81A7D5A590039FDC5 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA861CF71A7D5A590039FDC5 /* Message.swift */; };
+		AA861CFA1A7D5A9D0039FDC5 /* MessageBubbleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA861CF91A7D5A9D0039FDC5 /* MessageBubbleCell.swift */; };
+		AA861CFC1A7D5ABD0039FDC5 /* MessageSentDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA861CFB1A7D5ABD0039FDC5 /* MessageSentDateCell.swift */; };
+		AA861CFE1A7D5AD30039FDC5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA861CFD1A7D5AD30039FDC5 /* User.swift */; };
+		AA861D071A7D5C810039FDC5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA861D061A7D5C810039FDC5 /* AudioToolbox.framework */; };
+		AA861D091A7D5C890039FDC5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA861D081A7D5C890039FDC5 /* CFNetwork.framework */; };
+		AA861D0B1A7D5C910039FDC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA861D0A1A7D5C910039FDC5 /* CoreGraphics.framework */; };
+		AA861D0D1A7D5C990039FDC5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA861D0C1A7D5C990039FDC5 /* CoreLocation.framework */; };
+		AA861D0F1A7D5CA00039FDC5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA861D0E1A7D5CA00039FDC5 /* MobileCoreServices.framework */; };
+		AA861D111A7D5CA70039FDC5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA861D101A7D5CA70039FDC5 /* QuartzCore.framework */; };
+		AA861D131A7D5CAE0039FDC5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA861D121A7D5CAE0039FDC5 /* Security.framework */; };
+		AA861D151A7D5CB60039FDC5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA861D141A7D5CB60039FDC5 /* StoreKit.framework */; };
+		AA861D171A7D5CBF0039FDC5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA861D161A7D5CBF0039FDC5 /* SystemConfiguration.framework */; };
+		AA861D191A7D5CC40039FDC5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AA861D181A7D5CC40039FDC5 /* libz.dylib */; };
+		AA861D1B1A7D5CD00039FDC5 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AA861D1A1A7D5CD00039FDC5 /* libsqlite3.dylib */; };
+		AA861D1F1A7D7D440039FDC5 /* counselor_connect_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AA861D1D1A7D7D440039FDC5 /* counselor_connect_logo.png */; };
+		AA861D201A7D7D440039FDC5 /* counselor_connect_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA861D1E1A7D7D440039FDC5 /* counselor_connect_logo@2x.png */; };
+		AAC7D01A1AB2048200F61780 /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = AAC7D0181AB2048200F61780 /* white.png */; };
+		AAC7D01B1AB2048200F61780 /* white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAC7D0191AB2048200F61780 /* white@2x.png */; };
+		AACF9D951AAE299300E3D952 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACF9D941AAE299300E3D952 /* Parse.framework */; };
+		AACF9D971AAE299A00E3D952 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACF9D961AAE299A00E3D952 /* Bolts.framework */; };
+		AACF9D9F1AAE30CC00E3D952 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF9D9E1AAE30CC00E3D952 /* LogInViewController.swift */; };
+		AACF9DA11AAE35CB00E3D952 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AACF9DA01AAE35CB00E3D952 /* Main.storyboard */; };
+		AACF9DA41AAE6F6C00E3D952 /* counselor_connect_large_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AACF9DA21AAE6F6C00E3D952 /* counselor_connect_large_logo.png */; };
+		AACF9DA51AAE6F6C00E3D952 /* counselor_connect_large_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AACF9DA31AAE6F6C00E3D952 /* counselor_connect_large_logo@2x.png */; };
+		AACF9DA71AAE7B9400E3D952 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF9DA61AAE7B9400E3D952 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +55,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA768A681AAF89470039DC5D /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		AA768A6A1AAF89970039DC5D /* ChatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
+		AA7B1B041AC0BEC7000EB1CE /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		AA861CCE1A7D59280039FDC5 /* Counselor Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Counselor Connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA861CD21A7D59280039FDC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA861CD31A7D59280039FDC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AA861CD51A7D59280039FDC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AA861CD81A7D59280039FDC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA861CDA1A7D59280039FDC5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AA861CDD1A7D59280039FDC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AA861CE31A7D59280039FDC5 /* Counselor ConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Counselor ConnectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA861CE81A7D59280039FDC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA861CE91A7D59280039FDC5 /* Counselor_ConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counselor_ConnectTests.swift; sourceTree = "<group>"; };
+		AA861CF31A7D59890039FDC5 /* Chat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		AA861CF51A7D59CE0039FDC5 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		AA861CF71A7D5A590039FDC5 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		AA861CF91A7D5A9D0039FDC5 /* MessageBubbleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageBubbleCell.swift; sourceTree = "<group>"; };
+		AA861CFB1A7D5ABD0039FDC5 /* MessageSentDateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageSentDateCell.swift; sourceTree = "<group>"; };
+		AA861CFD1A7D5AD30039FDC5 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AA861D061A7D5C810039FDC5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AA861D081A7D5C890039FDC5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		AA861D0A1A7D5C910039FDC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA861D0C1A7D5C990039FDC5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AA861D0E1A7D5CA00039FDC5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		AA861D101A7D5CA70039FDC5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AA861D121A7D5CAE0039FDC5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		AA861D141A7D5CB60039FDC5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		AA861D161A7D5CBF0039FDC5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AA861D181A7D5CC40039FDC5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		AA861D1A1A7D5CD00039FDC5 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		AA861D1D1A7D7D440039FDC5 /* counselor_connect_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = counselor_connect_logo.png; sourceTree = "<group>"; };
+		AA861D1E1A7D7D440039FDC5 /* counselor_connect_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "counselor_connect_logo@2x.png"; sourceTree = "<group>"; };
+		AAC7D0181AB2048200F61780 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
+		AAC7D0191AB2048200F61780 /* white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white@2x.png"; sourceTree = "<group>"; };
+		AACF9D931AAE282F00E3D952 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Header.h; path = "Counselor Connect/Header.h"; sourceTree = "<group>"; };
+		AACF9D941AAE299300E3D952 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		AACF9D961AAE299A00E3D952 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		AACF9D9E1AAE30CC00E3D952 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		AACF9DA01AAE35CB00E3D952 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AACF9DA21AAE6F6C00E3D952 /* counselor_connect_large_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = counselor_connect_large_logo.png; sourceTree = "<group>"; };
+		AACF9DA31AAE6F6C00E3D952 /* counselor_connect_large_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "counselor_connect_large_logo@2x.png"; sourceTree = "<group>"; };
+		AACF9DA61AAE7B9400E3D952 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +102,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA861D1B1A7D5CD00039FDC5 /* libsqlite3.dylib in Frameworks */,
+				AA861D191A7D5CC40039FDC5 /* libz.dylib in Frameworks */,
+				AA861D171A7D5CBF0039FDC5 /* SystemConfiguration.framework in Frameworks */,
+				AA861D151A7D5CB60039FDC5 /* StoreKit.framework in Frameworks */,
+				AA861D131A7D5CAE0039FDC5 /* Security.framework in Frameworks */,
+				AA861D111A7D5CA70039FDC5 /* QuartzCore.framework in Frameworks */,
+				AA861D0F1A7D5CA00039FDC5 /* MobileCoreServices.framework in Frameworks */,
+				AACF9D971AAE299A00E3D952 /* Bolts.framework in Frameworks */,
+				AA861D0D1A7D5C990039FDC5 /* CoreLocation.framework in Frameworks */,
+				AA861D0B1A7D5C910039FDC5 /* CoreGraphics.framework in Frameworks */,
+				AA861D091A7D5C890039FDC5 /* CFNetwork.framework in Frameworks */,
+				AACF9D951AAE299300E3D952 /* Parse.framework in Frameworks */,
+				AA861D071A7D5C810039FDC5 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +131,10 @@
 		AA861CC51A7D59280039FDC5 = {
 			isa = PBXGroup;
 			children = (
+				AACF9D961AAE299A00E3D952 /* Bolts.framework */,
+				AACF9D941AAE299300E3D952 /* Parse.framework */,
+				AACF9D931AAE282F00E3D952 /* Header.h */,
+				AA861D1C1A7D5D3D0039FDC5 /* Frameworks */,
 				AA861CD01A7D59280039FDC5 /* Counselor Connect */,
 				AA861CE61A7D59280039FDC5 /* Counselor ConnectTests */,
 				AA861CCF1A7D59280039FDC5 /* Products */,
@@ -77,12 +153,28 @@
 		AA861CD01A7D59280039FDC5 /* Counselor Connect */ = {
 			isa = PBXGroup;
 			children = (
+				AA7B1B041AC0BEC7000EB1CE /* DashboardViewController.swift */,
+				AAC7D0181AB2048200F61780 /* white.png */,
+				AAC7D0191AB2048200F61780 /* white@2x.png */,
+				AACF9DA21AAE6F6C00E3D952 /* counselor_connect_large_logo.png */,
+				AACF9DA31AAE6F6C00E3D952 /* counselor_connect_large_logo@2x.png */,
+				AACF9DA01AAE35CB00E3D952 /* Main.storyboard */,
+				AACF9DA61AAE7B9400E3D952 /* SignUpViewController.swift */,
+				AA861D1D1A7D7D440039FDC5 /* counselor_connect_logo.png */,
+				AA861D1E1A7D7D440039FDC5 /* counselor_connect_logo@2x.png */,
 				AA861CD31A7D59280039FDC5 /* AppDelegate.swift */,
-				AA861CD51A7D59280039FDC5 /* ViewController.swift */,
-				AA861CD71A7D59280039FDC5 /* Main.storyboard */,
+				AA861CF31A7D59890039FDC5 /* Chat.swift */,
+				AA861CF51A7D59CE0039FDC5 /* ChatViewController.swift */,
+				AA768A681AAF89470039DC5D /* ChatCell.swift */,
+				AA768A6A1AAF89970039DC5D /* ChatsViewController.swift */,
 				AA861CDA1A7D59280039FDC5 /* Images.xcassets */,
+				AA861CF71A7D5A590039FDC5 /* Message.swift */,
+				AA861CF91A7D5A9D0039FDC5 /* MessageBubbleCell.swift */,
+				AA861CFB1A7D5ABD0039FDC5 /* MessageSentDateCell.swift */,
+				AA861CFD1A7D5AD30039FDC5 /* User.swift */,
 				AA861CDC1A7D59280039FDC5 /* LaunchScreen.xib */,
 				AA861CD11A7D59280039FDC5 /* Supporting Files */,
+				AACF9D9E1AAE30CC00E3D952 /* LogInViewController.swift */,
 			);
 			path = "Counselor Connect";
 			sourceTree = "<group>";
@@ -110,6 +202,24 @@
 				AA861CE81A7D59280039FDC5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA861D1C1A7D5D3D0039FDC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA861D1A1A7D5CD00039FDC5 /* libsqlite3.dylib */,
+				AA861D181A7D5CC40039FDC5 /* libz.dylib */,
+				AA861D161A7D5CBF0039FDC5 /* SystemConfiguration.framework */,
+				AA861D141A7D5CB60039FDC5 /* StoreKit.framework */,
+				AA861D121A7D5CAE0039FDC5 /* Security.framework */,
+				AA861D101A7D5CA70039FDC5 /* QuartzCore.framework */,
+				AA861D0E1A7D5CA00039FDC5 /* MobileCoreServices.framework */,
+				AA861D0C1A7D5C990039FDC5 /* CoreLocation.framework */,
+				AA861D0A1A7D5C910039FDC5 /* CoreGraphics.framework */,
+				AA861D081A7D5C890039FDC5 /* CFNetwork.framework */,
+				AA861D061A7D5C810039FDC5 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +266,7 @@
 		AA861CC61A7D59280039FDC5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Ethan Look";
 				TargetAttributes = {
@@ -192,8 +303,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA861CD91A7D59280039FDC5 /* Main.storyboard in Resources */,
+				AA861D1F1A7D7D440039FDC5 /* counselor_connect_logo.png in Resources */,
+				AA861D201A7D7D440039FDC5 /* counselor_connect_logo@2x.png in Resources */,
+				AACF9DA41AAE6F6C00E3D952 /* counselor_connect_large_logo.png in Resources */,
+				AACF9DA51AAE6F6C00E3D952 /* counselor_connect_large_logo@2x.png in Resources */,
 				AA861CDE1A7D59280039FDC5 /* LaunchScreen.xib in Resources */,
+				AAC7D01B1AB2048200F61780 /* white@2x.png in Resources */,
+				AAC7D01A1AB2048200F61780 /* white.png in Resources */,
+				AACF9DA11AAE35CB00E3D952 /* Main.storyboard in Resources */,
 				AA861CDB1A7D59280039FDC5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +329,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA861CD61A7D59280039FDC5 /* ViewController.swift in Sources */,
 				AA861CD41A7D59280039FDC5 /* AppDelegate.swift in Sources */,
+				AA861CFC1A7D5ABD0039FDC5 /* MessageSentDateCell.swift in Sources */,
+				AA861CF81A7D5A590039FDC5 /* Message.swift in Sources */,
+				AA768A691AAF89470039DC5D /* ChatCell.swift in Sources */,
+				AA861CF61A7D59CE0039FDC5 /* ChatViewController.swift in Sources */,
+				AA861CF41A7D59890039FDC5 /* Chat.swift in Sources */,
+				AA768A6B1AAF89970039DC5D /* ChatsViewController.swift in Sources */,
+				AA7B1B051AC0BEC7000EB1CE /* DashboardViewController.swift in Sources */,
+				AA861CFA1A7D5A9D0039FDC5 /* MessageBubbleCell.swift in Sources */,
+				AACF9DA71AAE7B9400E3D952 /* SignUpViewController.swift in Sources */,
+				AACF9D9F1AAE30CC00E3D952 /* LogInViewController.swift in Sources */,
+				AA861CFE1A7D5AD30039FDC5 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +363,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AA861CD71A7D59280039FDC5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AA861CD81A7D59280039FDC5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AA861CDC1A7D59280039FDC5 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -336,9 +455,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ethan Look (3KWKC79M28)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Counselor Connect/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Counselor Connect/Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -346,9 +476,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ethan Look (3KWKC79M28)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Counselor Connect/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Counselor Connect/Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -405,6 +545,7 @@
 				AA861CEF1A7D59280039FDC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA861CF01A7D59280039FDC5 /* Build configuration list for PBXNativeTarget "Counselor ConnectTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +554,7 @@
 				AA861CF21A7D59280039FDC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

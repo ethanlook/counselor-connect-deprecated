@@ -1,34 +1,186 @@
 {
   "images" : [
     {
-      "idiom" : "iphone",
       "size" : "29x29",
-      "scale" : "2x"
+      "idiom" : "iphone",
+      "filename" : "Icon-Small-1.png",
+      "scale" : "1x"
     },
     {
-      "idiom" : "iphone",
       "size" : "29x29",
-      "scale" : "3x"
-    },
-    {
       "idiom" : "iphone",
-      "size" : "40x40",
+      "filename" : "Icon-Small@2x.png",
       "scale" : "2x"
     },
     {
+      "size" : "29x29",
       "idiom" : "iphone",
-      "size" : "40x40",
+      "filename" : "counselor_connect_icon_87.png",
       "scale" : "3x"
     },
     {
+      "size" : "40x40",
       "idiom" : "iphone",
-      "size" : "60x60",
+      "filename" : "Icon-Spotlight-iOS7@2x-1.png",
       "scale" : "2x"
     },
     {
+      "size" : "40x40",
       "idiom" : "iphone",
-      "size" : "60x60",
+      "filename" : "Icon-120-1.png",
       "scale" : "3x"
+    },
+    {
+      "size" : "57x57",
+      "idiom" : "iphone",
+      "filename" : "Icon.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "57x57",
+      "idiom" : "iphone",
+      "filename" : "Icon@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "Icon-120-2.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "counselor_connect_icon_180.png",
+      "scale" : "3x"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "ipad",
+      "filename" : "Icon-Small.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "ipad",
+      "filename" : "Icon-Small@2x-1.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "40x40",
+      "idiom" : "ipad",
+      "filename" : "Icon-Spotlight-iOS7.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "40x40",
+      "idiom" : "ipad",
+      "filename" : "Icon-Spotlight-iOS7@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "50x50",
+      "idiom" : "ipad",
+      "filename" : "Icon-Small-50.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "50x50",
+      "idiom" : "ipad",
+      "filename" : "Icon-iPad-Spotlight-iOS7@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "72x72",
+      "idiom" : "ipad",
+      "filename" : "Icon-72.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "72x72",
+      "idiom" : "ipad",
+      "filename" : "Icon-72@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "76x76",
+      "idiom" : "ipad",
+      "filename" : "Icon-76.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "76x76",
+      "idiom" : "ipad",
+      "filename" : "Icon-76@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "120x120",
+      "idiom" : "car",
+      "filename" : "Icon-120.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "24x24",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "filename" : "counselor_connect_icon_24.png",
+      "role" : "notificationCenter",
+      "subtype" : "38mm"
+    },
+    {
+      "size" : "27.5x27.5",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "filename" : "counselor_connect_icon_27_5.png",
+      "role" : "notificationCenter",
+      "subtype" : "42mm"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "watch",
+      "filename" : "Icon-Small@2x-1-1.png",
+      "role" : "companionSettings",
+      "scale" : "2x"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "watch",
+      "filename" : "counselor_connect_icon_87-1.png",
+      "role" : "companionSettings",
+      "scale" : "3x"
+    },
+    {
+      "size" : "40x40",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "filename" : "Icon-Spotlight-iOS7@2x-2.png",
+      "role" : "appLauncher",
+      "subtype" : "38mm"
+    },
+    {
+      "size" : "44x44",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "filename" : "counselor_connect_icon_44.png",
+      "role" : "longLook",
+      "subtype" : "42mm"
+    },
+    {
+      "size" : "86x86",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "filename" : "counselor_connect_icon_86.png",
+      "role" : "quickLook",
+      "subtype" : "38mm"
+    },
+    {
+      "size" : "98x98",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "filename" : "counselor_connect_icon_98.png",
+      "role" : "quickLook",
+      "subtype" : "42mm"
     }
   ],
   "info" : {
